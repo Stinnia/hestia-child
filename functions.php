@@ -16,10 +16,3 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 add_action('wp_enqueue_script', 'custom_child-script');
 ?>
-
-<?php
-add_filter( 'ninja_forms_i18n_front_end', 'my_custom_ninja_forms_i18n_front_end' );
-function my_custom_ninja_forms_i18n_front_end( $strings ) {
-    $strings['fieldsMarkedRequired'] = 'Alle felter med * skal udfyldes';
-    return $strings;
-}

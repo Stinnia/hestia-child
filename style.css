@@ -19,32 +19,32 @@ Use it to make something cool, have fun, and share what you've learned with othe
 Hestia is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
-
-.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
-  font-family: "Montserrat", "Helvetica", serif;
-}
-.widget h5 {
-  font-family: "Montserrat", "Helvetica", serif;
-  margin-bottom: 10px;
-}
 body {
   direction: ltr;
   color: #3C4858;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
-  font-family: "Montserrat", "Helvetica", serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 .page-header.header-small .hestia-title,
 .page-header.header-small .title {
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
   color: #3C4858;
   text-decoration: none;
   word-wrap: break-word;
-  font-family: "Montserrat", "Helvetica", serif;
+  font-family: 'Montserrat', sans-serif;
+}
+.widget h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
 }
