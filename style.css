@@ -1,0 +1,50 @@
+/*
+Theme Name:     Hestia Child
+Theme URI:      https://themeisle.com/themes/hestia-child/
+Author:         Stinnia
+Author URI:     https://stinnia.com
+Description:    Hestia Child Theme
+Template:       hestia
+Version:        1.1.66
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    hestia
+WordPress Available:  yes
+Requires License:    no
+Tags: blog, custom-logo, portfolio, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Hestia is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
+  font-family: "Montserrat", "Helvetica", serif;
+}
+.widget h5 {
+  font-family: "Montserrat", "Helvetica", serif;
+  margin-bottom: 10px;
+}
+body {
+  direction: ltr;
+  color: #3C4858;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+.hestia-title, .title, .card-title, .info-title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .woocommerce.archive .blog-post .products .product-category h2 {
+  font-family: "Montserrat", "Helvetica", serif;
+}
+.page-header.header-small .hestia-title,
+.page-header.header-small .title {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+}
+.hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
+  color: #3C4858;
+  text-decoration: none;
+  word-wrap: break-word;
+  font-family: "Montserrat", "Helvetica", serif;
+}
